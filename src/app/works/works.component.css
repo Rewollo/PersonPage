@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+    background-color: #ccc;
+    padding: 25px;
+}
+
+li > img {
+    width: 500px;
+    height: 800px;
+    padding: 1px;
+    border: black 1px solid;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ol {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.genre {
+    font-size: 20px;
+}

@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+    background-color: #ccc;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+li {
+    text-align: left;
+}
+
+.gallery > img {
+    width: 500px;
+    height: 700px;
+}
+
+.content-group, .gallery {
+    display: flex;
+    justify-content: space-evenly;
+}

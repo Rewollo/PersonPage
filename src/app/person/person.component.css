@@ -1,0 +1,41 @@
+* {
+    color: whitesmoke;
+}
+
+h2, h1 {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#person-photo {
+    width: 650px;
+    height: 400px;
+}
+
+.person-wrap {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 300px;
+    background-image: url(../../assets/backgrounds/personbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.person-block {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

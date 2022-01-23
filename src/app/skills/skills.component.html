@@ -1,0 +1,16 @@
+<div class="skills-wrap">
+    <h2 (click) = 'isVisible = !isVisible'> Профессиональные навыки </h2>
+    <div class="content-group" *ngIf='isVisible'>
+        <ol>
+            <li> Опыт игры на ударных более 10 лет. </li>
+            <li> Опыт игры с быстрыми (более 200 bpm) темпами. </li>
+            <li> Опыт игры под метроном и программный фон. </li>
+            <li> Опыт игры в большом количестве жанров. </li>
+            <li> Большой опыт выступлений, участие в турах. </li>
+            <li> Опыт записи на известных зарубежных лейблах. </li>
+        </ol>
+        <div class="gallery" *ngFor="i of images; index as i">
+            <img src="{{images[i].url}}">
+        </div>
+    </div>
+</div>
