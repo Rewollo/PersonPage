@@ -6,8 +6,8 @@
 
 Необходим установленный Node.js.
 
-Запустите в терминале проекта следующие команды:
-npm install
+Запустите в терминале проекта следующие команды:<br>
+npm install<br>
 ng serve
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
