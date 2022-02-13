@@ -1,5 +1,15 @@
 # PersonPage
 
+Пример персональной страница на Angular. Промежуточный проект по фреймворку Angular.
+
+##Запуск
+
+Необходим установленный Node.js.
+
+Запустите в терминале проекта следующие команды:
+npm install
+ng serve
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
